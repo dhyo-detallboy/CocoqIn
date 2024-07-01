@@ -1,31 +1,52 @@
-**CocoqIn: Aplikasi Pemeriksaan Kecocokan Golongan Darah**
+# APLIKASI COCOQIN
+## BY ALIF DIO AF'ALLY
 
-By Alif Dio Af'ally
+### Deskripsi Proyek
+CocoqIn adalah aplikasi sederhana untuk memeriksa kecocokan golongan darah antara penerima dan pendonor. Proyek ini terdiri dari dua file utama:
+- `main_program.py`: Program utama yang mengelola interaksi dengan pengguna dan pemanggilan fungsi golongan darah.
+- `golongan_darah.py`: Modul yang berisi definisi fungsi untuk memeriksa kecocokan golongan darah.
 
-**Deskripsi Proyek**
+### Fungsi Utama
+- **golongan_darah_O**: Memeriksa kecocokan golongan darah jika penerima memiliki golongan darah O.
+- **golongan_darah_A**: Memeriksa kecocokan golongan darah jika penerima memiliki golongan darah A.
+- **golongan_darah_B**: Memeriksa kecocokan golongan darah jika penerima memiliki golongan darah B.
+- **golongan_darah_AB**: Memeriksa kecocokan golongan darah jika penerima memiliki golongan darah AB.
 
-CocoqIn adalah sebuah aplikasi sederhana untuk memeriksa kecocokan golongan darah antara penerima dan pendonor. Proyek ini dibuat menggunakan Python dan terdiri dari dua file utama:
+### Cara Penggunaan
+1. Program akan menyapa pengguna dengan pesan selamat datang dan petunjuk pengisian.
+2. Pengguna diminta untuk memasukkan golongan darah penerima dan pendonor dalam format huruf kecil (o, a, b, ab).
+3. Hasil pemeriksaan kecocokan golongan darah akan ditampilkan.
+4. Pengguna dapat memilih untuk melakukan pemeriksaan kembali atau mengakhiri aplikasi.
 
-1. main_program.py: Program utama yang berinteraksi dengan pengguna.
+### Contoh Penggunaan
+Misalnya, untuk memeriksa kecocokan golongan darah antara penerima AB dan pendonor O:
+```plaintext
++-------------------------------------------------------------------------+
+Selamat Datang di CocoqIn! :D 
++-------------------------------------------------------------------------+
+Petunjuk Pengisian :
+* Gunakan huruf kecil (o, a, b, ab)
++-------------------------------------------------------------------------+
+Golongan darah penerima : a
+Golongan darah pendonor : b
++-------------------------------------------------------------------------+
+Hasil Pemeriksaan Kecocokan :
+Golongan darah b tidak cocok untuk transfusi ke golongan darah a
++-------------------------------------------------------------------------+
 
-2. golongan_darah.py: Modul yang berisi definisi fungsi untuk memeriksa kecocokan golongan darah.
+Ingin melakukan pemeriksaan kembali? (ya/tidak): ya
++-------------------------------------------------------------------------+
+Selamat Datang di CocoqIn! :D
++-------------------------------------------------------------------------+
+Petunjuk Pengisian :
+* Gunakan huruf kecil (o, a, b, ab)
++-------------------------------------------------------------------------+
+Golongan darah penerima : o
+Golongan darah pendonor : a
++-------------------------------------------------------------------------+
+Hasil Pemeriksaan Kecocokan :
+Golongan darah a cocok untuk transfusi ke golongan darah o
++-------------------------------------------------------------------------+
 
-**Fitur Utama**
-
-1. Interaktif: Pengguna dapat memasukkan golongan darah penerima dan pendonor.
-
-2. Validasi Input: Memastikan bahwa input golongan darah sesuai dengan format yang diharapkan.
-
-3. Pengecekan Kecocokan: Memeriksa apakah golongan darah pendonor cocok untuk transfusi ke golongan darah penerima.
-
-4. Kembali Memeriksa: Pengguna memiliki opsi untuk melakukan pemeriksaan kembali tanpa harus menjalankan ulang program.
-
-**Cara Penggunaan**
-
-1. Jalankan main_program.py.
-
-2. Ikuti petunjuk untuk memasukkan golongan darah penerima dan pendonor.
-
-3. Dapatkan hasil pemeriksaan kecocokan golongan darah secara langsung.
-
-4. Pilih untuk melakukan pemeriksaan kembali atau selesai menggunakan aplikasi.
+Ingin melakukan pemeriksaan kembali? (ya/tidak): tidak
+Terima kasih sudah menggunakan aplikasi ini!
