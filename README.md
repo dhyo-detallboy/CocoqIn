@@ -27,20 +27,6 @@ Selamat Datang di CocoqIn! :D
 Petunjuk Pengisian :
 * Gunakan huruf kecil (o, a, b, ab)
 +-------------------------------------------------------------------------+
-Golongan darah penerima : a
-Golongan darah pendonor : b
-+-------------------------------------------------------------------------+
-Hasil Pemeriksaan Kecocokan :
-Golongan darah b tidak cocok untuk transfusi ke golongan darah a
-+-------------------------------------------------------------------------+
-
-Ingin melakukan pemeriksaan kembali? (ya/tidak): ya
-+-------------------------------------------------------------------------+
-Selamat Datang di CocoqIn! :D
-+-------------------------------------------------------------------------+
-Petunjuk Pengisian :
-* Gunakan huruf kecil (o, a, b, ab)
-+-------------------------------------------------------------------------+
 Golongan darah penerima : o
 Golongan darah pendonor : a
 +-------------------------------------------------------------------------+
