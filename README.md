@@ -19,7 +19,7 @@ CocoqIn adalah aplikasi sederhana untuk memeriksa kecocokan golongan darah antar
 4. Pengguna dapat memilih untuk melakukan pemeriksaan kembali atau mengakhiri aplikasi.
 
 ### Contoh Penggunaan
-Misalnya, untuk memeriksa kecocokan golongan darah antara penerima AB dan pendonor O:
+Misalnya, untuk memeriksa kecocokan golongan darah antara penerima O dan pendonor A:
 ```plaintext
 +-------------------------------------------------------------------------+
 Selamat Datang di CocoqIn! :D 
